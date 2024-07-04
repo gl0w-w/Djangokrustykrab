@@ -1,9 +1,4 @@
-/* Estilos para las fuentes */
-@font-face {
-  font-family: krabby_patty;
-  src: url(fonts/Krabby\ Patty.ttf);
-}
-
+@import url("https://fonts.cdnfonts.com/css/gaitera-ball");
 /* Estilos para las tarjetas (cards) */
 .card-container {
   justify-content: center;
@@ -20,7 +15,7 @@
   overflow: hidden;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   margin: 49px;
-  font-family: krabby_patty;
+  font-family: 'Gaitera Ball', sans-serif;
   font-weight: 122px;
 }
 
@@ -42,7 +37,6 @@
 
 .boton-vaciar-carrito {
   position: relative;
-  font-family: krabby_patty;
   top: 400px;
   left: 14px;
   display: block;
@@ -59,7 +53,6 @@
 }
 .boton-comprar {
   position: relative;
-  font-family: krabby_patty;
   top: 385px;
   left: 14px;
   display: block;
@@ -76,7 +69,6 @@
 }
 /* Estilos para los botones */
 .producto-Agregar {
-  font-family: krabby_patty;
   background-color: #333;
   color: white;
   border: none;
@@ -108,7 +100,6 @@
   overflow: hidden;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   margin: 45px;
-  font-family: krabby_patty;
   font-weight: 122px;
 }
 .carrito-producto img {
@@ -144,7 +135,6 @@
 
 .Total-compra-txt {
   position: relative;
-  font-family: krabby_patty;
   top: 420px;
   left: 14px;
   color: white;

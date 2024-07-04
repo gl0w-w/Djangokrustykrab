@@ -5,9 +5,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="{% static 'img/sponge-icon.jpg' %}" />
     <title>Krusty Krab | Registro</title>
-    <!-- Bootstrap CSS -->
+
+    <!--Conexión con el iconos de la página-->
+    <link rel="icon" href="{% static 'img/sponge-icon.jpg' %}" />
+
+    <!-- Conexión de los bootstrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -41,6 +44,8 @@
         /* La altura se ajustará automáticamente para mantener la proporción */
         display: block;
         /* Elimina cualquier espacio adicional alrededor de la imagen */
+        width: 340px;
+        /* Ancho de la imagen */
       }
     </style>
   </head>
@@ -48,15 +53,12 @@
   <body style="background-color: #24252a">
     <div class="container d-flex justify-content-center mt-5">
       <a href="{% url 'index' %}">
-        <img src="{% static 'img/Krab.png' %}" class="imagen-logo" alt="" />
+        <img
+          src="{% static 'img/logologin1.png' %}"
+          class="d-none d-md-block logo-md"
+          alt="logo login"
+        />
       </a>
-      <style>
-        @media (max-width: 768px) {
-          .imagen-logo img {
-            display: none;
-          }
-        }
-      </style>
     </div>
     <div class="container my-5 py-5" style="color: whitesmoke">
       <h2 class="mt-4">Crea Tu Cuenta</h2>
